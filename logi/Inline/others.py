@@ -12,39 +12,39 @@ def others_markup(videoid, user_id):
     buttons = [
         [
             InlineKeyboardButton(
-                text="🔎 Search Lyrics",
+                text="🔎 Sᴇᴀʀᴄʜ Lʏʀɪᴄs",
                 callback_data=f"lyrics {videoid}|{user_id}",
             )
         ],
         [
             InlineKeyboardButton(
-                text="✚ Your Playlist",
+                text="✚ Yᴏᴜʀ Pʟᴀʏʟɪsᴛ",
                 callback_data=f"your_playlist {videoid}|{user_id}",
             ),
             InlineKeyboardButton(
-                text="✚ Group Playlist",
+                text="✚ Gʀᴏᴜᴘ Pʟᴀʏʟɪsᴛ",
                 callback_data=f"group_playlist {videoid}|{user_id}",
             ),
         ],
         [
             InlineKeyboardButton(
-                text="⬇️ Download Audio/Video",
+                text="⬇️ Dᴏᴡɴʟᴏᴀᴅ Aᴜᴅɪᴏ/Vɪᴅᴇᴏ",
                 callback_data=f"audio_video_download {videoid}|{user_id}",
             )
         ],
         [
             InlineKeyboardButton(
-                text="⬅️ Go Back",
+                text="⬅️ Bᴀᴄᴋ",
                 callback_data=f"pr_go_back_timer {videoid}|{user_id}",
             ),
             InlineKeyboardButton(
-                text="🗑 Close Menu",
+                text="🗑 Cʟᴏsᴇ Mᴇɴᴜ",
                 callback_data=f"close",
             ),
         ],
        [
           InlineKeyboardButton(
-                text="🕊.⋆𝙆𝙄𝙉𝙂༒۝꧂",
+                text="🕊.⋆Kɪɴɢ⋆",
                 url=f"https://t.me/{OWNER_USERNAME}",
             ),
         ],
@@ -56,23 +56,23 @@ def download_markup(videoid, user_id):
     buttons = [
         [
             InlineKeyboardButton(
-                text="⬇️ Get Audio",
+                text="⬇️ Gᴇᴛ Vɪᴅᴇᴏ",
                 callback_data=f"gets audio|{videoid}|{user_id}",
             ),
             InlineKeyboardButton(
-                text="⬇️ Get Video",
+                text="⬇️ Gᴇᴛ Aᴜᴅɪᴏ",
                 callback_data=f"gets video|{videoid}|{user_id}",
             ),
         ],
         [
             InlineKeyboardButton(
-                text="⬅️ Go Back", callback_data=f"goback {videoid}|{user_id}"
+                text="⬅️ Bᴀᴄᴋ", callback_data=f"goback {videoid}|{user_id}"
             ),
-            InlineKeyboardButton(text="🗑 Close Menu", callback_data=f"close"),
+            InlineKeyboardButton(text="🗑 Cʟᴏsᴇ Mᴇɴᴜ", callback_data=f"close"),
         ],
        [
           InlineKeyboardButton(
-                text="🕊.⋆𝙆𝙄𝙉𝙂༒۝꧂",
+                text="🕊.⋆Kɪɴɢ⋆",
                 url=f"https://t.me/{OWNER_USERNAME}",
             ),
         ],
