@@ -230,16 +230,15 @@ async def initiate_bot():
 
 
 home_text_pm = f"""**━━━━━━━━━━━━━━━━━━━━━━━━
-💥 ʜᴇʟʟᴏ, ɪ ᴀᴍ  sᴜᴘᴇʀ ғᴀsᴛ ᴠᴄ ᴘʟᴀʏᴇʀ
-ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs🌼 ..
+💥 Hᴇʟʟᴏ, I Aᴍ  Sᴜᴘᴇʀ Fᴀsᴛ Vᴄ Pʟᴀʏᴇʀ
+Bᴏᴛ Fᴏʀ Tᴇʟᴇɢʀᴀᴍ Gʀᴏᴜᴘs🌼 ..
 ┏━━━━━━━━━━━━━━━━━┓
-┣★ ᴋɪɴɢ    : [🥰](https://t.me/{OWNER_USERNAME})
-┣★ ᴜᴘᴅᴀᴛᴇs : [Sᴜᴘᴘᴏʀᴛ Cʜᴀɴɴᴇʟ](https://t.me/{SUPPORT_CHANNEL})
-┣★ ɢʀᴏᴜᴘ   : [ᴊᴏɪɴ](https://t.me/{SUPPORT_GROUP})
-┣★ ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ : [ɢɪᴛʜᴜʙ](https://github.com/LOGI-LAB/Music-Bot)
+┣★ Kɪɴɢ    : [🥰](https://t.me/{OWNER_USERNAME})
+┣★ Uᴘᴅᴀᴛᴇs : [Sᴜᴘᴘᴏʀᴛ Cʜᴀɴɴᴇʟ](https://t.me/{SUPPORT_CHANNEL})
+┣★ Gʀᴏᴜᴘ   : [Jᴏɪɴ](https://t.me/{SUPPORT_GROUP})
 ┗━━━━━━━━━━━━━━━━━┛
-💞 ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴛʜᴇɴ
-ᴅᴍ ᴛᴏ ᴍʏ [ʟᴇɢᴇɴᴅ ᴏᴡɴᴇʀ](https://t.me/cl_me_logesh) ...
+💞 Iғ Yᴏᴜ Hᴀᴠᴇ Aɴʏ Qᴜᴇsᴛɪᴏɴs Tʜᴇɴ
+Dᴍ Tᴏ Mʏ [Lᴇɢᴇɴᴅ Oᴡɴᴇʀ](https://t.me/KingOf_univers) ...
 ━━━━━━━━━━━━━━━━━━━━━━━━**"""
 
 
@@ -255,7 +254,7 @@ async def start_command(_, message):
         name = (message.text.split(None, 1)[1]).lower()
         if name[0] == "s":
             sudoers = await get_sudoers()
-            text = "⭐️<u> **Owners:**</u>\n"
+            text = "⭐️<u> **Owner:**</u>\n"
             sex = 0
             for x in OWNER_ID:
                 try:
@@ -335,10 +334,10 @@ async def start_command(_, message):
                 [
                     [
                         InlineKeyboardButton(
-                            text="🎥 Watch Youtube Video", url=f"{link}"
+                            text="🎥 Wᴀᴛᴄʜ Yᴏᴜᴛᴜʙᴇ Vɪᴅᴇᴏ", url=f"{link}"
                         ),
                         InlineKeyboardButton(
-                            text="🔄 Close", callback_data="close"
+                            text="🔄 Cʟᴏsᴇ", callback_data="close"
                         ),
                     ],
                 ]
@@ -424,10 +423,10 @@ All commands can be used with: /
             [
                 [
                     InlineKeyboardButton(
-                        text="↪️ Back", callback_data="help_back"
+                        text="⬅️ Bᴀᴄᴋ", callback_data="help_back"
                     ),
                     InlineKeyboardButton(
-                        text="🔄 Close", callback_data="close"
+                        text="🔄 Cʟᴏsᴇ", callback_data="close"
                     ),
                 ],
             ]
